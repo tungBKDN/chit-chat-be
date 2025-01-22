@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chit-chat-be", "chit-chat-be\chit-chat-be.csproj", "{FB07A37C-894A-93DB-8238-043D0E20D393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB07A37C-894A-93DB-8238-043D0E20D393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB07A37C-894A-93DB-8238-043D0E20D393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB07A37C-894A-93DB-8238-043D0E20D393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB07A37C-894A-93DB-8238-043D0E20D393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11DA0CA1-E55A-401F-BA13-D0CC3AB58D71}
+	EndGlobalSection
+EndGlobal
