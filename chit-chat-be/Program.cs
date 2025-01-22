@@ -1,4 +1,5 @@
 using chit_chat_be.Data;
+using chit_chat_be.Hubs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -15,6 +16,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Chit Chat API", Version = "v1" });
 });
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -31,5 +33,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHub<ChatHub>("/chathub");
 
 app.Run();
