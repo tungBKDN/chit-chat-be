@@ -1,3 +1,4 @@
+using chit_chat_be.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace chit_chat_be.Data
@@ -10,6 +11,7 @@ namespace chit_chat_be.Data
       }
 
       // Define your DbSets here
-      // public DbSet<YourEntity> YourEntities { get; set; }
+      public DbSet<User> Users { get; set; }
+      public DbSet<Token> Tokens { get; set; }
    }
 }
